@@ -10,7 +10,16 @@ condicao4 = None
 
 
 class Node:
-    def __init__(self, key, parent):
+    def __init__(self, key, parent): #key é uma lista com fze, afe, cre, lbe, fzd, afd, crd, lbd, boat
+                                    # fazendeiro no lado esquerdo
+                                    #alface no lado esquerdo
+                                    #carneiro no lado esquerdo
+                                    #lobo no lado esquerdo
+                                    #fazendeiro no lado direito
+                                    #alface no lado direito
+                                    #carneiro no lado direito
+                                    #lobo no lado direito
+                                    #barco
         self.key = key
         self.parent = parent
 

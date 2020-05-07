@@ -44,7 +44,7 @@ def solve(fze, afe, cre, lbe, fzd, afd, crd, lbd, boat, depth):
         crd == 1 and
         lbd == 1
     ):
-        print (fze, '-', afe, '-', cre, '-', lbe, '-', fzd, '-', afd, '-', crd, '-', lbd, '-', boat)
+        print (fze, '-', afe, '-', cre, '-', lbe, '-', fzd, '-', afd, '-', crd, '-', lbd, '-', boat) #mostrar estado
         return True
 
     if(
